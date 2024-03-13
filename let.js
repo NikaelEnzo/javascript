@@ -1,16 +1,15 @@
 // Declaração de uma variável
-let nome; // Escopo de bloco
-var idade; // Escopo global
-const PI = 3.14; // Escopo de bloco e global
+let nome; // Escopo de bloco = conteudo dentro de {}
+var idade; // Escopo global = ver em todo o programa sendo o valor imutavel
+const PI = 3.14; // Escopo de bloco dentro de um bloco e global fora de um bloco 
 
 
 function soma() {
   if(true) {
-    //const PI = 3.14; // Escopo global
-    console.log(PI)
+    let nome = "nika"
+    console.log(nome)
   }
-  PI = 50
-  console.log(PI)
+  console.log(nome)
 }
 
 soma()
