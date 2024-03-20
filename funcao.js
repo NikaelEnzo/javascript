@@ -5,8 +5,8 @@ function saudacao(nome) { /*nome = Parametro*/
 }
 
 console.log(saudacao("Nikael"));
-
-
+    
+    
     //função: pode ou não ter parametro mas sempre retorna
     
     /*
@@ -16,21 +16,24 @@ console.log(saudacao("Nikael"));
         
         console.log("Esta é uma mensagem")
     }*/
-
+    
+    
     /*
     //array:
     let frutas = ["Maça","Banana","Laranja"] //frutas ira me dar todas as frutas
     //indices:
     console.log(frutas[1]) //tem saida em Banana por comessar contando de 0
     */
-    
+
+
     /*
-    //objeto
+    //objeto e feito de uma propriedade e um valor
     //ex:
-    Objeto: let pessoa = {
+    let pessoa = {
        nome:"João",
        idade: 30,
        profissao:"Engenheiro"
+    }
     
     console.log(pessoa.nome);
     console.log(pessoa.idade);
